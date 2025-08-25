@@ -38,8 +38,7 @@ Growth OS uses Supabase's built-in secrets management system for environment var
 | `SMTP_PASSWORD` | SMTP password | `app_password_123` | None |
 | `SMTP_FROM_EMAIL` | Default sender email | `noreply@company.com` | None |
 | `SMTP_FROM_NAME` | Default sender name | `Growth OS` | `Growth OS` |
-| `SMTP_LMS_FROM_EMAIL` | LMS-specific sender | `lms@company.com` | None |
-| `SMTP_LMS_FROM_NAME` | LMS sender name | `LMS Team` | `LMS Team` |
+
 
 > **Warning:** Configure both LMS and billing SMTP settings with different sender addresses to avoid email delivery issues.
 
